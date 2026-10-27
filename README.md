@@ -45,11 +45,11 @@ A real-time 2D N-Body Solar System simulation developed in modern C++ using SFML
 
 To build and run this project, you need:
 
-* **C++20** compatible compiler (GCC, Clang, or MSVC)
-* **CMake** (v3.16 or higher)
-* **SFML 3.x**
-* **Dear ImGui & ImGui-SFML**
-* **nlohmann_json**
+- **C++17** compatible compiler (GCC, Clang, or MSVC)
+- **CMake** (v3.28 or higher)
+- **SFML 3.x**
+- **Dear ImGui & ImGui-SFML**
+- **nlohmann_json**
 
 ---
 
@@ -71,11 +71,11 @@ cmake --build build --config Release
 ### 3. Run the Simulation
 Windows:
 ```bash
-build\Release\nbody-solar-system-simulation.exe
+.\build\Release\nbody.exe
 ```
 Linux/macOS:
 ```bash
-./build/nbody-solar-system-simulation
+./build/nbody
 ```
 
 Note: Ensure that the assets/ directory (containing logos, fonts, and language JSON files) is copied to the working directory alongside the executable
