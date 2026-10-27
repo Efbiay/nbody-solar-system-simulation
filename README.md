@@ -19,32 +19,6 @@ A real-time 2D N-Body Solar System simulation developed in modern C++ using SFML
 
 To build and run this project, you need:
 
-* **C++20** compatible compiler (GCC, Clang, or MSVC)
-* **CMake** (v3.16 or higher)
-* **SFML 3.x**
-* **Dear ImGui & ImGui-SFML**
-* **nlohmann_json**
-# N-Body Solar System Simulation
-
-A real-time 2D N-Body Solar System simulation developed in modern C++ using SFML, Dear ImGui, and JSON-based configuration. The project utilizes the **Heun Method (2nd-Order Runge-Kutta)** with a fixed-timestep accumulator pattern to ensure physical accuracy and stability independent of display frame rates.
-
----
-
-## 🌟 Key Features
-
-* **Numerical Integration:** Heun's Method (RK2) for stable gravitational simulation.
-* **Fixed Timestep Engine:** Physics loop is completely decoupled from rendering FPS.
-* **Real-time Analytics:** Tracks total energy drift, angular momentum conservation, and orbital telemetries.
-* **Interactive UI:** Dear ImGui panel featuring real-time property plots (distance, velocity, kinetic energy).
-* **Internationalization (i18n):** JSON-driven language swapping system (English / Turkish).
-* **Data-Driven Architecture:** Celestial body definitions and properties loaded dynamically via JSON (`assets/planets.txt`).
-
----
-
-## 🛠️ Prerequisites
-
-To build and run this project, you need:
-
 - **C++17** compatible compiler (GCC, Clang, or MSVC)
 - **CMake** (v3.28 or higher)
 - **SFML 3.x**
